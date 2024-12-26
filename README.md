@@ -22,7 +22,7 @@ I am passionate about technology and problem-solving. Here's a glimpse of my wor
 
 <dl>
 <dt>Course Name</dt>
-<dd>Algorithmic Problem Solving</dd>
+<dd>DAA</dd>
 <dt>Course Code</dt>
 <dd>Course Code Placeholder</dd>
 <dt>Name</dt>
