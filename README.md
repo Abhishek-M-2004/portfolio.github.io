@@ -1,18 +1,16 @@
 # portfolio.github.io
 ## Portfolio
 
-### Hello, I'm [Your Name] 👋
+### Hello, I'm Abhishek 👋
 
 I am passionate about technology and problem-solving. Here's a glimpse of my work:
 
 ## 🛠️ Projects
-- **Project 1**: A short description of your project.
-- **Project 2**: A short description of another project.
+- **Project**: Warehouse Management System
 
 ## 🚀 Skills
-- C++, Python, JavaScript
+- C,C++
 - Data Structures and Algorithms
-- Web Development (React.js, Node.js)
 
 ## 🌐 Find Me Online
 - [GitHub](https://github.com/your-github-username)
