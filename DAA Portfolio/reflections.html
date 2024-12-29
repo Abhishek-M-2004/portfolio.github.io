@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Learning Reflections</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        /* Header Section */
+        header {
+        padding-top: 50px;
+        background-color: #4CAF50;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+        }
+        .header-content h1 {
+        margin: 0;
+        font-size: 2.5rem;
+        }
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+            margin-top: 50px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding-bottom: 100px;
+        }
+        h2 {
+            color: #333;
+        }
+        h2 {
+            margin-top: 20px;
+        }
+        ul {
+            margin: 20px 0;
+            list-style: none;
+            padding-left: 20px;
+        }
+        li {
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            
+        }
+        /* Navigation Menu */
+        nav {
+        background-color: #333;
+        text-align: center;
+        padding: 10px 0;
+        }
+
+        nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        }
+
+        nav ul li {
+        display: inline;
+        margin: 0 15px;
+        }
+
+        nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.1rem;
+        padding: 5px 10px;
+        transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+        background-color: #ddd;
+        color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-content">
+        <h1>Course Learning Reflections</h1>
+    </div>
+</header>
+
+<nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="project.html">Course Project</a></li>
+      <li><a href="reflections.html">Course Learning Reflections</a></li>
+    </ul>
+  </nav>
+
+<main>
+    <h2>Topics Learnt</h2>
+    <ul>
+        <li><strong>1. Time Complexity:</strong>
+            <ul>
+                <li>I now understand the crucial role of asymptotic analysis (Big O, Big Omega, Big Theta) in evaluating algorithm efficiency. It helps us in understanding how an algorithm’s time complexity varies as a function of the input size.</li>
+                <li>I have become proficient in identifying the growth rates of common algorithms and data structures, such as linear search, binary search, sorting algorithms (bubble sort, insertion sort, merge sort, quick sort), tree traversals, and graph algorithms.</li>
+                <li>I now recognize how the choice of data structure significantly influences an algorithm's time complexity. For example, using a hash table for lookups provides constant time complexity, whereas searching an unsorted array requires linear time.</li>
+                <li>I've learned to apply time complexity analysis to real-world scenarios. I can now evaluate the performance of different algorithms and choose the most appropriate one for a given problem and dataset size.</li>
+            </ul>
+        </li>
+
+        <li><strong>2. Binary Search Tree:</strong>
+            <ul>
+                <li>I have understood the properties of a BST:
+                    <ul>
+                        <li>The left subtree of any node contains only nodes with keys less than the node's key.</li>
+                        <li>The right subtree of any node contains only nodes with keys greater than the node's key.</li>
+                    </ul>
+                </li>
+                <li>I've learned to implement and analyze the time complexity of key BST operations, including:
+                    <ul>
+                        <li>Search: Efficiently finding a specific value within the tree</li>
+                        <li>Insertion: Adding new nodes to the tree while maintaining the BST property.</li>
+                        <li>Deletion: Removing nodes from the tree while preserving the BST structure, considering various cases (nodes with no children, one child, or two children).</li>
+                    </ul>
+                </li>
+                <li>I've studied different tree traversal methods (In-order, Pre-order, Post-order) and their applications. In-order traversal of a BST results in a sorted list of the keys.</li>
+                <li>I've explored variations of BSTs, such as:
+                    <ul>
+                        <li>AVL Trees: Self-balancing BSTs that maintain a balanced height to ensure efficient search and insertion operations.</li>
+                        <li>Red-Black Trees: Another type of self-balancing BST with stricter balance constraints, providing guaranteed logarithmic time complexity for all operations.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li><strong>3. DFS and BFS:</strong>
+            <ul>
+                <li><strong>DFS:</strong>
+                    <ul>
+                        <li>I understand the core principle of DFS: exploring a branch of the graph as deeply as possible before backtracking.</li>
+                        <li>I can implement DFS using recursion or an iterative approach (using a stack).</li>
+                        <li>I recognize the applications of DFS, such as:
+                            <ul>
+                                <li>Topological Sort: Ordering tasks or events in a way that all dependencies are met.</li>
+                                <li>Finding Connected Components: Identifying groups of nodes that are reachable from each other.</li>
+                                <li>Cycle Detection: Detecting cycles in a graph.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li><strong>BFS:</strong>
+                    <ul>
+                        <li>I have understood the fundamental concept of BFS: exploring all nodes at the current level before moving to the next level.</li>
+                        <li>I can implement BFS using a queue.</li>
+                        <li>I am aware of the applications of BFS, including:
+                            <ul>
+                                <li>Shortest Path in Unweighted Graphs: Finding the shortest path between two nodes in an unweighted graph.</li>
+                                <li>Finding Connected Components: Identifying groups of nodes that are reachable from each other.</li>
+                                <li>Minimum Spanning Tree (in some cases): Constructing a minimum spanning tree for certain types of graphs.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li><strong>4. Heap:</strong>
+            <ul>
+                <li><strong>Heap Properties:</strong> I have understood the heap properties:
+                    <ul>
+                        <li>Max-Heap: In a max-heap, the parent node is always greater than or equal to its children.</li>
+                        <li>Min-Heap: In a min-heap, the parent node is always less than or equal to its children.</li>
+                        <li>Complete Binary Tree: Heaps are typically implemented as complete binary trees, ensuring efficient storage and access.</li>
+                    </ul>
+                </li>
+
+                <li><strong>Heap Operations:</strong> I've learned to implement and analyze the time complexity of key heap operations:
+                    <ul>
+                        <li>Insertion: Adding a new element to the heap while maintaining the heap property.</li>
+                        <li>Deletion (Extract-Max/Extract-Min): Removing the root element (maximum or minimum) from the heap and maintaining the heap property.</li>
+                        <li>Heapify: Converting an array into a heap in efficient time.</li>
+                    </ul>
+                </li>
+
+                <li><strong>Heap Applications:</strong> I've explored the diverse applications of Heaps, including:
+                    <ul>
+                        <li>Priority Queues: Implementing priority queues efficiently, where elements are served based on their priority.</li>
+                        <li>Sorting Algorithms: Implementing efficient sorting algorithms like Heap Sort.</li>
+                        <li>Graph Algorithms: Utilizing heaps in algorithms like Dijkstra's algorithm for finding shortest paths in weighted graphs.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li><strong>5. Sorting Algorithms:</strong>
+            <ul>
+                <li>This course has provided me with a comprehensive understanding of various sorting algorithms, their underlying principles, and their time and space complexities.</li>
+                <li><strong>Comparison-Based Sorts:</strong> I've studied and implemented several comparison-based sorting algorithms, including:
+                    <ul>
+                        <li>Bubble Sort: A simple but inefficient algorithm with O(n^2) time complexity in the worst and average cases.</li>
+                        <li>Insertion Sort: Efficient for small datasets or nearly sorted data, with O(n^2) time complexity in the worst case and O(n) in the best case.</li>
+                        <li>Selection Sort: Another O(n^2) algorithm that consistently performs the same number of comparisons in all cases.</li>
+                        <li>Merge Sort: A divide-and-conquer algorithm with O(n log n) time complexity in all cases, known for its stability.</li>
+                        <li>Quick Sort: A highly efficient algorithm with O(n log n) average-case time complexity, but O(n^2) in the worst case.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li><strong>6. Pattern Matching:</strong>
+            <ul>
+                <li><strong>Brute Force:</strong> I've learned the basic concept of Brute Force string matching, which involves iterating through the text character by character and comparing it with the pattern. While simple, it can be inefficient for longer patterns.</li>
+                <li><strong>Boyer-Moore Algorithm:</strong> I've studied the Boyer-Moore algorithm, a more efficient algorithm that utilizes two heuristics:
+                    <ul>
+                        <li>Bad Character Heuristic: Shifts the pattern based on mismatched characters.</li>
+                        <li>Good Suffix Heuristic: Shifts the pattern based on matching suffixes.</li>
+                    </ul>
+                    I understand how these heuristics significantly improve the performance of pattern searching.
+                </li>
+                <li><strong>Knuth-Morris-Pratt (KMP) Algorithm:</strong> I've learned the KMP algorithm, which utilizes a precomputed "lps" (longest proper prefix which is also suffix) array to efficiently avoid unnecessary comparisons. This allows for linear-time pattern searching in the worst case.</li>
+                <li><strong>Rabin-Karp Algorithm:</strong> I've been introduced to the Rabin-Karp algorithm, which uses hashing to compare the hash values of the pattern and substrings in the text. This can be more efficient than comparison-based algorithms for certain cases.</li>
+            </ul>
+        </li>
+
+        <li><strong>7. Graph Algorithms:</strong>
+            <ul>
+                <li><strong>Shortest Path Algorithms:</strong> I've learned about various shortest path algorithms:
+                    <ul>
+                        <li>Dijkstra’s Algorithm: An efficient algorithm for finding the shortest path from a source node to all other nodes in a weighted graph.</li>
+                        <li>Bellman-Ford Algorithm: A more general algorithm that works for graphs with negative weights but is slower than Dijkstra's algorithm.</li>
+                        <li>Floyd-Warshall Algorithm: A dynamic programming-based algorithm that computes the shortest paths between all pairs of nodes in a graph.</li>
+                    </ul>
+                </li>
+                <li><strong>Minimum Spanning Tree (MST) Algorithms:</strong> I've learned two common algorithms for finding the minimum spanning tree of a graph:
+                    <ul>
+                        <li>Prim’s Algorithm: A greedy algorithm that builds the MST one edge at a time, selecting the edge with the smallest weight that connects a node in the MST to a node outside the MST.</li>
+                        <li>Kruskal’s Algorithm: A greedy algorithm that sorts all edges and adds them one by one to the MST, ensuring that no cycles are formed.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <br>
+
+    <h2>Challenges in Learning/Understanding DSA Concepts</h2>
+    <ul>
+        <li>Understanding abstract DSA concepts, such as recursion and tree traversals, can be mentally challenging.</li>
+        <li>Learning DSA requires strong mathematical foundations, especially discrete mathematics.</li>
+        <li>Debugging complex algorithms and handling edge cases is time-consuming and difficult.</li>
+        <li>Optimizing algorithms for both time and space efficiency requires deep knowledge and experience.</li>
+        <li>Consistent practice is essential for mastering DSA concepts.</li>
+    </ul>
+    <br>
+
+    <h2>Challenges in Correlating DAA Concepts with Real-World Applications</h2>
+    <ul>
+        <li>Bridging the gap between theoretical DSA concepts and real-world implementations can be difficult.</li>
+        <li>Real-world applications often involve additional complexities not covered in textbook problems.</li>
+        <li>Understanding how DSA solutions apply to systems with numerous dependencies and constraints requires a deeper understanding of the system's architecture.</li>
+    </ul>
+    <br>
+
+    <h2>Challenges While Solving a Difficult Problem</h2>
+    <h3>1. Thoroughly Understand the Problem</h3>
+    <ul>
+        <li><strong>Define the Problem:</strong> Clearly articulate the problem statement, including inputs, outputs, constraints, and desired outcomes.</li>
+        <li><strong>Identify Goals:</strong> Determine the primary goals, such as performance, scalability, or maintainability.</li>
+        <li><strong>Consider Constraints:</strong> Identify limitations like memory constraints, time limits, or hardware/software requirements.</li>
+    </ul>
+
+    <h3>2. Explore Potential Approaches</h3>
+    <ul>
+        <li><strong>Brainstorm:</strong> Generate a list of potential approaches and consider different algorithmic paradigms like Divide and Conquer, Greedy, Dynamic Programming, and Backtracking.</li>
+        <li><strong>Research Existing Solutions:</strong> Investigate if similar problems have been solved and explore existing algorithms or libraries that might be applicable.</li>
+    </ul>
+
+    <h3>3. Analyze and Evaluate</h3>
+    <ul>
+        <li><strong>Time and Space Complexity:</strong> Analyze the time and space complexity of each potential approach.</li>
+        <li><strong>Trade-offs:</strong> Evaluate the trade-offs between different approaches, considering factors like performance and memory usage.</li>
+        <li><strong>Prototype and Test:</strong> Implement prototypes of the most promising approaches and test their performance.</li>
+    </ul>
+</main>
+
+<footer>
+    <p>Course Learning Reflections | © 2024</p>
+</footer>
+
+</body>
+</html>
