@@ -1,0 +1,136 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  header {
+    background-color: #ff4c68;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2em;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+  }
+  nav a {
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1em;
+  }
+  nav a:hover {
+    background-color: #f1c40f;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    flex-grow: 1;
+  }
+  h2 {
+    color: #ff4c68;
+    font-size: 2em;
+    text-align: center;
+  }
+  h3 {
+    color: #2c3e50;
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+  footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-top: 20px;  /* Adds space above the footer */
+    padding: 20px;  /* Adds padding inside the footer */
+    text-align: center;
+    width: 100%;
+  }
+  .content-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #34495e;
+  }
+  .highlight {
+    background-color: #f0f8ff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  .highlight h4 {
+    color: #e74c3c;
+  }
+  .highlight p {
+    font-size: 1.1em;
+    color: #2980b9;
+  }
+  .subsection {
+    margin-top: 20px;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .subsection h4 {
+    color: #16a085;
+    font-size: 1.4em;
+  }
+  .image-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .centered-image {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  * Adjusting spacing for elements */
+    h1, h2, h3, h4 {
+    margin-top: 20px;  /* Add space before headings */
+    margin-bottom: 10px;  /* Add space after headings */
+    }
+
+    ul {
+    margin-bottom: 20px;  /* Add space after lists */
+    }
+
+    ul li {
+    margin-bottom: 10px;  /* Add space between list items */
+    }
+
+    /* Adding some space between paragraphs */
+    p {
+    margin-bottom: 15px;  /* Adds space between paragraphs */
+    }
+
+    /* Container padding */
+    .container {
+    padding: 30px;  /* Add more padding to container to avoid clustered content */
+    }
+
+    /* Footer styling */
+    footer {
+    padding: 15px;  /* Add some space around footer content */
+    }
+
+    /* Additional spacing between sections */
+    section {
+    margin-bottom: 30px;  /* Add space between sections */
+    }
+  
