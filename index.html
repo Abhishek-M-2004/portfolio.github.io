@@ -6,47 +6,47 @@
     <title>Student Portfolio</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
+            font-family: 'Roboto', Arial, sans-serif;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
             margin: 0;
             padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
+            color: #ffffff;
         }
 
         .container {
-            background: #ffffff;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            background: linear-gradient(to bottom, #ffffff, #f7f7f7);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
             text-align: center;
-            width: 350px;
+            width: 400px;
+            color: #333;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .container:hover {
             transform: translateY(-10px);
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
         }
 
         h1 {
-            font-size: 1.8em;
+            font-size: 2em;
+            margin-bottom: 15px;
+            font-weight: bold;
             color: #333;
-            margin-bottom: 20px;
-            font-weight: 600;
         }
 
-        p {
-            margin: 12px 0;
+        p, ul li {
             font-size: 1.1em;
-            color: #555;
-            line-height: 1.5;
+            line-height: 1.6;
         }
 
         p strong {
-            color: #007bff;
+            color: #6a11cb;
         }
 
         .links a {
@@ -54,33 +54,52 @@
             margin: 15px 0;
             padding: 12px;
             color: #ffffff;
-            background-color: #007bff;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 8px;
             font-size: 1.1em;
-            transition: background-color 0.3s ease, transform 0.3s ease;
+            font-weight: bold;
+            transition: background 0.3s ease, transform 0.3s ease;
         }
 
         .links a:hover {
-            background-color: #0056b3;
+            background: linear-gradient(to right, #2575fc, #6a11cb);
             transform: translateY(-3px);
         }
 
-        .links a:active {
-            transform: translateY(1px);
+        .section {
+            margin-top: 30px;
+            text-align: left;
+            padding: 10px 0;
+            border-top: 1px solid #ddd;
+        }
+
+        .section h2 {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .section ul li {
+            margin: 5px 0;
         }
 
         @media (max-width: 480px) {
             .container {
                 width: 90%;
-                padding: 25px;
+                padding: 20px;
             }
 
             h1 {
-                font-size: 1.6em;
+                font-size: 1.8em;
             }
 
-            p {
+            p, ul li {
                 font-size: 1em;
             }
 
@@ -92,7 +111,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Student Details</h1>
+        <h1>Student Portfolio</h1>
         <p><strong>Name:</strong> Abhishek M</p>
         <p><strong>Roll No:</strong> 154</p>
         <p><strong>Division:</strong> F</p>
@@ -101,6 +120,44 @@
         <div class="links">
             <a href="DAA LAB PORTFOLIO/index.html" target="_blank">Lab Portfolio</a>
             <a href="DAA THEORY PORTFOLIO/index.html" target="_blank">Theory Portfolio</a>
+        </div>
+
+        <div class="section">
+            <h2>🛠️ Projects</h2>
+            <ul>
+                <li>Effecient Warehouse Management System.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🚀 Skills</h2>
+            <ul>
+                <li>C, C++, SQL</li>
+                <li>Data Structures and Algorithms</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🌐 Find Me Online</h2>
+            <ul>
+                <li><a href="https://github.com/Abhishek-M-2004/portfolio.github.io" style="color: #2575fc;">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/abhishek-m-4399742a9/" style="color: #2575fc;">LinkedIn</a></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Course Details</h2>
+            <p><strong>Course Name:</strong> Algorithmic Problem Solving</p>
+            <p><strong>Course Code:</strong> 24ECAC203</p>
+            <p><strong>Name:</strong> Naveen.Huggi</p>
+            <p><strong>SRN:</strong> 01FE23BCI056</p>
+            <p><strong>Course Instructor:</strong> KMMR sir</p>
+            <p><strong>University:</strong> KLE Technological University</p>
+        </div>
+
+        <div class="section">
+            <h2>Portfolio Topic/Domain</h2>
+            <p>Portfolio Website</p>
         </div>
     </div>
 </body>
